@@ -1,0 +1,17 @@
+.look-books{
+  display: flex;
+  flex-flow: column;
+  margin: auto;
+  width: 90%;
+
+}
+
+.look-books__row{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.footer{
+  margin-top: 50px;
+}
