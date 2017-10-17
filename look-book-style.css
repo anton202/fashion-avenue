@@ -3,6 +3,9 @@
   flex-flow: column;
   margin: auto;
   width: 90%;
+  height: 980px;
+  justify-content: space-between;
+
 
 }
 

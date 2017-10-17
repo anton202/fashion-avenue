@@ -93,12 +93,12 @@ display: inline-block;
 .header__slider {
   position: relative;
   background-color: rgb(248, 248, 248);
-  height: 450px;
+  height: 570px;
 }
 
 .header__slider__logo{
 position: absolute;
-top:3%;
+top:4%;
 left: 3%;
 z-index: 1;
 }
@@ -199,7 +199,7 @@ input {
 .header__slider__contant{
   position: absolute;
   top:0;
-  left: 22%;
+  left: 16%;
 }
 
 .header__slider__contant__ave {
