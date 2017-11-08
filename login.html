@@ -7,8 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="all-style/style.css">
   <link rel="stylesheet" href="all-style/the-brand-style.css">
-  <link rel="stylesheet" href="all-style/local-stores-style.css">
-  <title>Local-Stores</title>
+  <link rel="stylesheet" href="all-style/login-style.css">
+  <title>Document</title>
 </head>
 
 <body>
@@ -24,8 +24,8 @@
       </select>
         </div>
         <div class="header__top-bar__right-nav">
-          <a class="header__top-bar__right-nav__link" href="#">Register</a>
-          <a class="header__top-bar__right-nav__link" href="#">Sign in</a>
+          <a class="header__top-bar__right-nav__link" href="login.html">Register</a>
+          <a class="header__top-bar__right-nav__link" href="login.html">Sign in</a>
         </div>
         <button class="header__top-bar__cart-button header__top-bar__cart-button--hover" type="button" name="button">
         <img class="header__top-bar__cart-button__cart-image" src="images/cart.png" alt="cart" width="17" height="14">
@@ -86,69 +86,50 @@
           </div>
         </div>
         <div class="header__slider__content">
-          <img class="header__slider__content__img" src="local-stores-images/intro.png" alt="intro img">
+          <img class="header__slider__content__img" src="login-images/intro.png" alt="intro img">
         </div>
       </div>
     </div>
 
-    <!-- ////////////////////////////////////////////MAIN-CONTENT////////////////////////////////////////////////////////////-->
 
-    <div class="content-location">
-      <div class="content-location__item">
-        <section class="content-location__item__description">
-          <h3> LONDON</h3>
-          <p><b>180-180 REGEN STREET, LONDON,W1B 5BT</b> </p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-          <button class="content-location__item__description__view-details-button" type="button" name="button">VIEW DETAILS</button>
-        </section>
+    <!--///////////////////////////////////////////MAIN-CONTENT/////////////////////////////////////////////-->
+
+    <div class="sign-in-register-container">
+      <div class="sign-in-register-container__sign-in">
+        <form class="sign-in-register-container__sign-in__form" action="index.html" method="post">
+          <h3><b>SIGN-IN</b></h3>
+          <input type="text" name="" value="" placeholder="Your Email...">
+          <input type="text" name="" value="" placeholder="Your Password...">
+          <input type="submit" name="SIGN IN" value="SIGN IN">
+          <div class="sign-in-register-container__sign-in__forgot-pass">
+            <a href="">  Forrgot Your Password &#8594;</a>
+          </div>
+        </form>
       </div>
+      <div class="sign-in-register-container__vertical-line"></div>
 
-      <div class="content-location__item">
-        <section class="content-location__item__description">
-          <h3>NEY YORK</h3>
-          <p> <b>109 COLUMBUS CIRCLE, NEY YORK, NY10023 </b> </p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-          <button class="content-location__item__description__view-details-button" type="button" name="button">VIEW DETAILS</button>
-        </section>
-      </div>
+      <div class="sign-in-register-container__register">
+        <form class="sign-in-register-container__register__form" action="index.html" method="post">
+          <h3><b>REGISTER</b></h3>
+          <input type="text" name="" value="" placeholder="Your Email...">
+          <input type="text" name="" value="" placeholder="Your Password...">
+          <input type="text" name="" value="" placeholder="Confirm Password...">
+          <div class="sign-in-register-container__register__checkbox">
+            <input type="checkbox" name="" value="">
+            <p class="sign-in-register-container__register__checkbox-text"> Sign up for exclusive update,discounts and other unnesecery bullshit.</p>
+          </div>
+        </form>
 
-      <div class="content-location__item">
-        <section class="content-location__item__description">
-          <h3>PARIS</h3>
-          <p> <b>2133 RUE SAINT-HONORE, 75001 PARIS </b></p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-          <button class="content-location__item__description__view-details-button" type="button" name="button">VIEW DETAILS</button>
-        </section>
-      </div>
-
-    </div>
-
-
-    <div class="content-location-details">
-      <div class="content-location-details__map">
-        <img class="content-location-details__map__img" src="local-stores-images/map.png" alt="map" width="860" height="360">
-      </div>
-      <div class="content-location-details__details">
-        <section class="content-location__item__description">
-          <h3> LONDON</h3>
-          <p><b>180-180 REGEN STREET, LONDON,W1B 5BT</b> </p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-          <ul class="content-location__item__description__information-list">
-            <li>&#x2735; 180-180 REGEN STREET, LONDON,W1B 5BT</li>
-            <li>&#x2706; 0124-456-973</li>
-            <li>&#x1f517; www.yourwebsite.com </li>
-            <li>&#9993; support@yourwebsite.com</li>
-            <li>&#x1f550; Monday-Friday:9am to 6pm Saturday:10am to 2pm</li>
-          </ul>
-          <img src="local-stores-images/social-icons.png" alt="">
-        </section>
+        <div class="sign-in-register-container__register__create-account">
+          <input type="submit" name="CREATE ACCOUNT" value="CREATE ACCOUNT">
+          <div class="sign-in-register-container__register__create-account__privacy-policy">
+            By clickin Create accont you agree to out <a>privacy policy &#8594;</a>
+          </div>
+        </div>
       </div>
     </div>
 
+    <!--///////////////////////////////FOOTER/////////////////////////-->
 
     <div class="footer ">
       <div class="footer__positioning-container">
@@ -219,6 +200,8 @@
         </div>
       </div>
     </div>
+
+
   </main>
 </body>
 

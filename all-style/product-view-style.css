@@ -1,0 +1,123 @@
+.product-view__product-functionality__section {
+  font-size: 0.9em;
+}
+
+.product-view__product-functionality__section__media-share {
+  margin-right: 5px;
+}
+.product-view__product-functionality__section__media-share:first-child {
+  margin-left: 5px;
+}
+.product-view__product-functionality__section__stars:hover{
+  color: gold;
+}
+
+.product-view {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.product-view__img-slider {
+  width: 50%;
+}
+
+.product-view__product-functionality {
+  width: 50%;
+}
+
+.product-view__product-info {
+  margin-top: 20px;
+}
+
+.product-view__product-info__nav {
+  background-color: rgb(248, 248, 248);
+}
+
+.product-view__product-info__nav__menu {
+  list-style: none;
+  padding: 0;
+
+  font-size: 0.9em;
+}
+
+.product-view__product-info__nav__menu__style-div {
+  display: inline-block;
+  margin-right: 40px;
+  padding: 10px 5px 10px 5px;
+}
+
+.product-view__product-info__nav__menu__style-div:hover {
+  background-color: black;
+  color: white;
+}
+
+.product-view__product-info__show-nav-items__video {
+  display: none;
+}
+
+.product-view__product-info__show-nav-items__size-specs {
+  display: none;
+}
+
+.product-view__product-functionality__section__feature-list {
+  padding-left: 13px;
+}
+
+.product-view__product-functionality__quantety-selector {
+  width: 40px;
+  height: 15px;
+}
+
+.product-view__product-functionality__t-shirt-properties {
+  display: flex;
+  width: 65%;
+  height: 50px;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.product-view__product-functionality__t-shirt-properties-selector__name {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 0.9em;
+}
+
+.product-view__product-functionality__bottom-button{
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(0,0,0,0.7);
+  background-color: rgba(115, 115, 115, 0);
+  font-size: 14px;
+  color: rgba(0,0,0,0.7);
+  text-transform: uppercase;
+  padding: 8px 15px 8px 15px;
+   letter-spacing: 2px;
+}
+
+#heart{
+  font-size: 14px;
+display: inline-block;
+}
+
+.product-view__product-functionality__bottom-button:first-child{
+  margin-right: 25px;
+}
+
+.product-view__product-functionality__bottom-buttons{
+  margin-top: 20px;
+}
+
+.product-view__product-functionality__bottom-button:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+.product-view__product-functionality__add-to-compare{
+  font-size: 0.9em;
+  margin-top: 25px;
+}

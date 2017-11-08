@@ -1,0 +1,141 @@
+.header__slider {
+  height: 50%;
+  background-color: white;
+}
+
+.header__slider__container {
+  height: 60px;
+}
+
+.header__slider__content {
+  width: 100%;
+}
+
+.header__slider__content__img {
+  width: 100%;
+  height: 100%;
+}
+
+.header__slider__logo {
+  display: inline-block;
+}
+
+.nav {
+  display: inline-block;
+  padding: 0;
+  width: 40%;
+  position: static;
+  margin-top: 20px;
+}
+
+.header__slider__nav__menu {
+  padding-left: 0;
+}
+
+.header__slider__search {
+  display: inline-block;
+  position: relative;
+  top: -15%;
+}
+
+
+
+/*----------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------content---------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------------*/
+
+.background-color-container {
+  background-color: rgb(255, 250, 250);
+}
+
+.content {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  justify-content: space-between;
+  height: 720px;
+  margin-top: 5%;
+  padding-bottom: 50px;
+  background-color: rgb(255, 250, 250);
+  font-size: 0.9em;
+}
+
+.content__left-content {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  width: 48.5%;
+}
+
+.content__right-content {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  width: 48.5%;
+}
+
+.content__img-white-guy{
+  width: 100%;
+  height: 100%;
+}
+
+.content__left-content__top-content{
+  width: 100%;
+  height: 33%;
+}
+
+.content__left-content__bottom-content{
+  width: 100%;
+  height: 62%;
+}
+
+.content__img-whit-women{
+  height: 50%;
+  width: 100%;
+}
+.content__left-content__bottom-content__description {
+width: 100%;
+height: 40%;
+}
+
+.content__right-contetn__top-content{
+  width: 100%;
+  height: 20%;
+}
+
+.content__right-contetn__top-content__description {
+  width: 100%;
+  height: 100%;
+
+}
+
+.content__right-content__bottom-content{
+  width: 100%;
+  height: 55%;
+}
+.content__img-indian-women{
+  width: 100%;
+  height: 60%;
+}
+.content__right-content__bottom-content__description {
+  width: 100%;
+  height: 30%;
+}
+
+.content__right-content__awards{
+  width: 100%;
+  height: 20%;
+}
+
+.content__img-awards{
+  width: 100%;
+  height: 50%;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------FOOTER------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+.footer {
+  margin-top: 0;
+}

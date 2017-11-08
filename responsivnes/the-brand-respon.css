@@ -1,0 +1,63 @@
+@media screen and (max-width: 1000px) {
+  .header__slider__search {
+    display: none;
+  }
+  .header__slider__nav__menu__list-item--hide {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .nav {
+    display: none;
+  }
+
+  .header__top-bar__currency {
+    left: 10%;
+  }
+
+  .header__top-bar__right-nav {
+    right: 40%;
+  }
+
+  .header__top-bar__cart-button {
+    right: 20%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header__top-bar__right-nav {
+      display: none;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .content{
+    flex-flow: column;
+    height: 500px;
+  }
+
+  .content__left-content__top-content{
+    display:none;
+
+  }
+
+.content__right-content{
+  width: 100%;
+}
+
+.content__left-content{
+  width: 100%;
+}
+  .content__img-whit-women{
+    display: none;
+  }
+
+  .content__img-indian-women{
+    display: none;
+  }
+
+  .content__img-awards{
+    margin-top: 10px;
+  }
+}
