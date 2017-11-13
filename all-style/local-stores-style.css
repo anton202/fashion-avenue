@@ -47,11 +47,19 @@
 
 .content-location-details__map{
   width:70%;
-  
+
+}
+
+.content-location-details__map__img{
+  width: 100%;
+  height: 100%;
 }
 
 .content-location-details__details{
   width:30%;
+padding-left: 20px;
+padding-right: 20px;
+font-size: 0.9em;
 }
 
 .content-location__item__description__information-list {

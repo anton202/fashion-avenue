@@ -1,3 +1,12 @@
+
+.header__top-bar__cart-button{
+  right: 29%;
+}
+
+.header__top-bar__right-nav{
+  right: 41%;
+}
+
 .header__slider {
   height: 50%;
   background-color: white;

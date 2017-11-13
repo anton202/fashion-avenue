@@ -12,6 +12,30 @@
     display: none;
   }
 
+  .header__slider__container{
+    height: auto;
+  }
+
+.header__slider__logo{
+  margin-left: auto;
+  margin-left: auto;
+  position: static;
+
+}
+
+  .footer__item {
+    width: 25%;
+  }
+
+  .footer__banners {
+    display: none;
+  }
+
+  .footer__bottom__copy-right{
+    margin-left: 10%;
+    margin-right: 15%;
+}
+
   .header__top-bar__currency {
     left: 10%;
   }
@@ -25,39 +49,65 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .content {
+    flex-flow: column;
+    height: 100%;
+  }
+
+
+
+  .content__left-content__top-content {
+    display: none;
+  }
+
+  .content__right-content {
+    width: 100%;
+  }
+
+  .content__left-content {
+    width: 100%;
+  }
+  .content__img-whit-women {
+    display: none;
+  }
+
+  .content__img-indian-women {
+    display: none;
+  }
+
+  .content__img-awards {
+    margin-top: 10px;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .header__top-bar__right-nav {
-      display: none;
-  }
-}
-
-@media screen and (max-width: 768px){
-  .content{
-    flex-flow: column;
-    height: 500px;
-  }
-
-  .content__left-content__top-content{
-    display:none;
-
-  }
-
-.content__right-content{
-  width: 100%;
-}
-
-.content__left-content{
-  width: 100%;
-}
-  .content__img-whit-women{
     display: none;
   }
 
-  .content__img-indian-women{
-    display: none;
+  .content__right-content {
+    margin-top: 5px;
   }
 
-  .content__img-awards{
-    margin-top: 10px;
+  .footer__item {
+    width: 50%;
+  }
+
+  .footer__bottom{
+    font-size: 0.8em;
+  }
+  .footer__bottom__dev-by{
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 340px){
+  .footer__bottom__designet-by{
+    display: none;
+  }
+  .header__top-bar__cart-button{
+    right:5%;
   }
 }

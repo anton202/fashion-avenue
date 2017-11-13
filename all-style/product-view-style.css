@@ -1,5 +1,12 @@
+
+.product-view__img-slider-img{
+  width: 100%;
+  height: 100%;
+}
+
 .product-view__product-functionality__section {
   font-size: 0.9em;
+  padding-left: 20px;
 }
 
 .product-view__product-functionality__section__media-share {
@@ -15,6 +22,7 @@
 .product-view {
   display: flex;
   width: 70%;
+
   margin: auto;
   flex-wrap: wrap;
   margin-top: 20px;
@@ -23,10 +31,15 @@
 
 .product-view__img-slider {
   width: 50%;
+
+}
+
+.share{
+  display: inline-block;
 }
 
 .product-view__product-functionality {
-  width: 50%;
+  width:50%;
 }
 
 .product-view__product-info {
@@ -78,6 +91,7 @@
   height: 50px;
   justify-content: space-between;
   margin-top: 40px;
+  padding-left: 20px;
 }
 
 .product-view__product-functionality__t-shirt-properties-selector__name {
@@ -92,11 +106,21 @@
   border-width: 1px;
   border-color: rgba(0,0,0,0.7);
   background-color: rgba(115, 115, 115, 0);
-  font-size: 14px;
+  font-size: 1em;
   color: rgba(0,0,0,0.7);
   text-transform: uppercase;
   padding: 8px 15px 8px 15px;
    letter-spacing: 2px;
+
+}
+
+.button-1{
+  margin-right: 10px;
+  width: 42%;
+}
+
+.button-2{
+width: 54%;
 }
 
 #heart{
@@ -104,12 +128,13 @@
 display: inline-block;
 }
 
-.product-view__product-functionality__bottom-button:first-child{
-  margin-right: 25px;
-}
+
 
 .product-view__product-functionality__bottom-buttons{
   margin-top: 20px;
+  padding-left: 20px;
+
+
 }
 
 .product-view__product-functionality__bottom-button:hover {

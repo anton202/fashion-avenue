@@ -1,0 +1,23 @@
+@media screen and (max-width: 510px){
+  .content-location{
+    flex-flow: column;
+  }
+
+  .content-location__item{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .content-location__item__description{
+    text-align: center;
+  }
+
+  .content-location-details__map{
+    display: none;
+  }
+
+  .content-location-details__details{
+    width: 100%;
+  }
+}

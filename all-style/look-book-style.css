@@ -1,20 +1,37 @@
-.look-books{
+.look-books {
   display: flex;
   flex-flow: column;
   margin: auto;
   width: 90%;
-  height: 980px;
+  height: 100%;
   justify-content: space-between;
-
-
 }
 
-.look-books__row{
+.look-books__row {
   display: flex;
   justify-content: space-between;
 }
 
+.look-books__row__item {
+  width: 23%;
+  height: 30%;
+}
 
-.footer{
+.look-books__row__item-big {
+  width: 48.5%;
+  height: 30%;
+}
+
+.look-books__row__item-big-2 {
+  width: 74.5%;
+  height: 30%;
+}
+
+.look-books__row__item__img {
+  width: 100%;
+  height: 100%;
+}
+
+.footer {
   margin-top: 50px;
 }

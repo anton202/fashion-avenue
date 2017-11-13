@@ -1,0 +1,85 @@
+@media screen and (max-width: 930px) {
+  .nav__menu__look-book {
+    display: none;
+  }
+
+  .look-book {
+    flex-flow: column;
+    justify-content: space-around;
+    height: 800px;
+  }
+  .look-book__item {
+    width: 100%;
+    height: 230px;
+  }
+
+  .look-book__item_imge {
+    display: none;
+  }
+
+  .look-book-img {
+    display: none;
+  }
+
+  .look-book__item__description__section {
+    margin: auto;
+  }
+
+  .look-book__item__description__section__header {
+    text-align: center;
+  }
+
+  .look-book__item__description__section__paragraph {
+    text-align: center;
+  }
+
+  .look-book__item__description__section__button-view-now--positioning {
+    margin: auto;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .look-book__item__description__section__button-view-now {
+    margin: auto;
+    display: block;
+  }
+
+  .look-book__item__description {
+    width: 100%;
+  }
+
+  .look-book__item:nth-child(2)
+    .look-book__item__description__section__button-view-now--positioning {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .look-books__row {
+    flex-wrap: wrap;
+  }
+  .look-books__row__item {
+    width: 49%;
+  }
+
+  .look-books__row__item-big {
+    width: 100%;
+  }
+
+  .look-books__row__item-big-2 {
+    width: 100%;
+  }
+
+  .look-books__row__item-responsive{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .items__items-nav {
+    display: none;
+  }
+  .look-books{
+    margin-top: 30px;
+  }
+}

@@ -1,0 +1,57 @@
+@media screen and (max-width:1000px) {
+  .product-view{
+
+    justify-content: center;
+  }
+  .product-view__img-slider{
+    width: 70%;
+  }
+  .product-view__product-functionality{
+    width: 70%;
+  }
+
+.product-view__product-info__nav__menu{
+      font-size: 0.8em;
+}
+
+  .product-view__product-info__nav__menu__style-div{
+    margin-right: 3%;
+  }
+
+  .share{
+    display: block;
+    margin-top: 15px;
+  }
+}
+
+
+@media screen and (max-width:768px){
+  .product-view__product-info__nav__menu__style-div{
+    display: block;
+    width: 98%;
+  }
+
+  .button-1{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .button-2{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:350px){
+.product-view__product-functionality__bottom-buttons{
+  font-size: 0.8em;
+}
+
+.product-view__product-functionality__t-shirt-properties{
+  flex-flow: column;
+  height: auto;
+}
+
+ .product-view__product-functionality__t-shirt-properties-selector{
+   margin-bottom: 10px;
+ }
+}
